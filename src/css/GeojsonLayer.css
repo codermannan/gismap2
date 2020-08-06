@@ -1,0 +1,41 @@
+.geojson-toggle {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 1000;
+    margin-top: 20px;
+    background: white;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.toolTip {
+    background: red;
+    border: 2px solid cyan;
+}
+
+.toolTipInside {
+    color: red;
+    font-size: .8em;
+}
+
+.outerToolTip {
+    opacity: .1;
+}
+
+.toolTipOutSide {
+    color: blue;
+    font-size: .8em;
+}
+
+.leaflet-container {
+    font: 10px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+
+.ToolTipProvince {
+    font-size: 10x;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+}

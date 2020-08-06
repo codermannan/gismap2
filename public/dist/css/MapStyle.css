@@ -1,0 +1,216 @@
+#google-visualization-errors-all-1{ background: #ccc}
+.report-options br{ display: none}
+pre{ position: fixed; right: 0; top: 0; z-index: 1;}
+label{ display: block; padding-top: 5px;} 
+select:empty,label.empty{ display: none}
+/* label+select:empty{ display: none;}
+select:empty~label:not([for=report_date]){ display: none} */
+.pre{ white-space: pre;}
+.nowrap{ white-space: nowrap;}
+/*map*/
+.map{ background: #f5f5f5 url(../img/alt.png); transition: all .5s ease-in-out; margin-bottom: 15px; border: 1px solid #ddd }
+#map{ height: 600px; background: #f5f5f5 url(../img/alt.png);}
+#map.fullscreen,.fullscreen{
+    position: fixed !important;
+    z-index: 999 !important;
+    width: auto !important;
+    height: auto !important;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0!important;
+}
+
+.map-table { margin-bottom: 7px !important;}
+.map-table th{ white-space: nowrap}
+.map-table td,.map-table th{padding: 3px !important;}
+.map-table tfoot td{ font-weight: bold !important;}
+.map-table td+td,.map-table th+th{ text-align: right !important; padding-left: 10px !important;} 
+
+.breadcrumb-item a{ text-decoration: none}
+.breadcrumb-item .close{ margin-top:3px; line-height: 16px; display: none; transition: all .5s ease-in-out;margin-left: 5px}
+.breadcrumb-item:hover .close{ display: inline-block;font-size: normal}
+/* .breadcrumb-item  .ml-1{ margin-left: 5px} */
+.leaflet-control{pointer-events: none}
+.leaflet-popup-content-wrapper { border-radius: 0 !important }
+.leaflet-popup-content-wrapper caption{ font-size: 1.2em; border-bottom: 2px solid orange; padding: 3px 0px; }
+.leaflet-control-attribution{ display: none !important}
+.leaflet-touch .leaflet-bar a{ float: left;    border-bottom: 1px solid transparent; }
+.leaflet-touch .leaflet-bar a+a{border-left: 1px solid #ccc;}
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i,.legend-i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.8;
+}
+.subgroup .legend-i{ border-radius: 50% !important; }
+.legend h5{ font-weight: bold !important; margin-top: 0px !important;   }
+.legend.leaflet-control:empty{ display: none}
+
+.marker-label-x{
+    z-index: 2 !important;
+}
+.marker-cluster-x{ 
+    border-radius: 50% !important; 
+    /* background: #fff !important;  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    font-weight: bold;
+    opacity: .8;
+    display: inline-block !important; 
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 40px; */
+    /* line-height:calc(100%) */
+}
+.marker-cluster-x>div{ border-radius: 50% !important; }
+
+/* --------------------- */
+
+.leaflet-control-layers-list>label {
+    margin-bottom: 0px
+}
+
+.leaflet-control-layers-list .subgroup {
+    margin-left: 15px
+}
+
+.leaflet-control-layers-list .subgroup label {
+    margin-bottom: 0px
+}
+
+.leaflet-control-layers-list .subgroup input {
+    margin: 0
+}
+
+.report-sidebar {
+    padding-right: 0 !important;
+}
+
+.report-sidebar .leaflet-control {
+    float: none;
+}
+
+.leaflet-control-layers-overlays label {
+    margin: 0;
+    padding: 1px 0;
+    cursor: pointer;
+
+}
+
+.leaflet-control-layers-overlays>label+label {
+    border-top: 1px solid #dcdcdc;
+}
+
+.leaflet-control-layers-selector+span .subgroup {
+    display: none
+}
+
+.leaflet-control-layers-selector:checked+span .subgroup {
+    display: block
+}
+
+.leaflet-control-layers-selector+span .subgroup label {
+    font-weight: normal;
+}
+
+.leaflet-control-layers-selector+span .subgroup.subgroup-length-1 {
+    display: none
+}
+
+.relative{ position: relative}
+
+.use-notifier {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    position: absolute;
+    /* left: calc(50% + 148px); */
+    bottom: 7px;
+    right:5px;
+    width: 24px;
+    display: none;
+  }
+  .pace-running .use-notifier{display: inline-block;}
+  @keyframes anim-pos {
+    0% { transform: translate(-98%, 0); }
+    100% { transform: translate(98%, 0); }
+  }
+  @keyframes anim-z-order {
+    0% { z-index: 100; }
+    100% { z-index: 1; }
+  }
+
+
+  .use-notifier .outer {
+    animation: anim-z-order 3520ms linear infinite;
+    height: 37.5%;
+    left: 50%;
+    margin-inline-start: -18.75%;
+    margin-top: -18.75%;
+    position: absolute;
+    top: 50%;
+    width: 37.5%;
+  }
+  .use-notifier .inner {
+    animation: anim-pos 880ms cubic-bezier(0.445, 0.05, 0.55, 0.95)
+        infinite alternate;
+    border-radius: 50%;
+    height: 100%;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 100%;
+  }
+  .use-notifier .ball0 {
+    animation-delay: 2640ms;
+    transform: rotate(45deg);
+  }
+  .use-notifier .ball1 {
+    animation-delay: 1760ms;
+    transform: rotate(135deg);
+  }
+  .use-notifier .ball2 {
+    transform: rotate(225deg);
+  }
+  .use-notifier .ball3 {
+    animation-delay: 880ms;
+    transform: rotate(315deg);
+  }
+  .use-notifier .ball0 .inner {
+    background: linear-gradient(
+        315deg, rgb(0, 85, 221), rgb(0, 119, 255), rgb(0, 119, 255));
+  }
+  .use-notifier .ball1 .inner {
+    background: linear-gradient(
+        225deg, rgb(221, 0, 0), rgb(238, 51, 51), rgb(255, 119, 85));
+  }
+  .use-notifier .ball2 .inner {
+    background: linear-gradient(
+        90deg, rgb(0, 119, 68), rgb(0, 153, 68), rgb(85, 187, 85));
+  }
+  .use-notifier .ball3 .inner {
+    background: linear-gradient(
+        0deg, rgb(255, 170, 51), rgb(255, 204, 0), rgb(255, 221, 102));
+  }

@@ -1,0 +1,217 @@
+[{
+        "directorate": "DGFP",
+        "divid": 20,
+        "designation": "FPI",
+        "active": 274,
+        "sanction": 324,
+        "vacant": 50,
+        "percentage": 85
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 20,
+        "designation": "FWA",
+        "active": 1251,
+        "sanction": 1792,
+        "vacant": 541,
+        "percentage": 70
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 20,
+        "designation": "FWV",
+        "active": 131,
+        "sanction": 155,
+        "vacant": 24,
+        "percentage": 85
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 20,
+        "designation": "SACMO_FP",
+        "active": 71,
+        "sanction": 95,
+        "vacant": 24,
+        "percentage": 75
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 30,
+        "designation": "FPI",
+        "active": 150,
+        "sanction": 167,
+        "vacant": 17,
+        "percentage": 90
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 30,
+        "designation": "FWA",
+        "active": 530,
+        "sanction": 930,
+        "vacant": 400,
+        "percentage": 57
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 30,
+        "designation": "FWV",
+        "active": 160,
+        "sanction": 203,
+        "vacant": 43,
+        "percentage": 79
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 30,
+        "designation": "SACMO_FP",
+        "active": 104,
+        "sanction": 112,
+        "vacant": 8,
+        "percentage": 93
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 40,
+        "designation": "FPI",
+        "active": 71,
+        "sanction": 72,
+        "vacant": 1,
+        "percentage": 99
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 40,
+        "designation": "FWA",
+        "active": 231,
+        "sanction": 341,
+        "vacant": 110,
+        "percentage": 68
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 40,
+        "designation": "FWV",
+        "active": 77,
+        "sanction": 91,
+        "vacant": 14,
+        "percentage": 85
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 40,
+        "designation": "SACMO_FP",
+        "active": 39,
+        "sanction": 55,
+        "vacant": 16,
+        "percentage": 71
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 50,
+        "designation": "FPI",
+        "active": 59,
+        "sanction": 79,
+        "vacant": 20,
+        "percentage": 75
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 50,
+        "designation": "FWA",
+        "active": 245,
+        "sanction": 443,
+        "vacant": 198,
+        "percentage": 55
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 50,
+        "designation": "FWV",
+        "active": 48,
+        "sanction": 59,
+        "vacant": 11,
+        "percentage": 81
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 50,
+        "designation": "SACMO_FP",
+        "active": 27,
+        "sanction": 35,
+        "vacant": 8,
+        "percentage": 77
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 55,
+        "designation": "FPI",
+        "active": 103,
+        "sanction": 115,
+        "vacant": 12,
+        "percentage": 90
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 55,
+        "designation": "FWA",
+        "active": 370,
+        "sanction": 562,
+        "vacant": 192,
+        "percentage": 66
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 55,
+        "designation": "FWV",
+        "active": 41,
+        "sanction": 55,
+        "vacant": 14,
+        "percentage": 75
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 55,
+        "designation": "SACMO_FP",
+        "active": 19,
+        "sanction": 32,
+        "vacant": 13,
+        "percentage": 59
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 60,
+        "designation": "FPI",
+        "active": 266,
+        "sanction": 317,
+        "vacant": 51,
+        "percentage": 84
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 60,
+        "designation": "FWA",
+        "active": 1178,
+        "sanction": 1624,
+        "vacant": 446,
+        "percentage": 73
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 60,
+        "designation": "FWV",
+        "active": 133,
+        "sanction": 161,
+        "vacant": 28,
+        "percentage": 83
+    },
+    {
+        "directorate": "DGFP",
+        "divid": 70,
+        "designation": "SACMO_FP",
+        "active": 38,
+        "sanction": 88,
+        "vacant": 50,
+        "percentage": 43
+    }
+]
